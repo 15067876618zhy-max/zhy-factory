@@ -1,0 +1,34 @@
+# Runtime outputs
+logs/
+screen_captures/
+__pycache__/
+*.pyc
+
+# Local screen/OCR artifacts
+screen_observer_config.json
+screen_ocr_raw.csv
+auction_snapshot_observed.csv
+auction_report*.txt
+ocr_latest.txt
+ocr_test.png
+debug_fullscreen.png
+
+# Local generated snapshots
+auction_snapshot.csv
+
+# Personal trading data. Remove these rules only for a private repository.
+stock_profile.csv
+market_heat.csv
+review_framework.md
+rotation_watchlist.csv
+limitup_structure_*.md
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local packaging output
+github_publish/
+github_publish.zip
